@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe that loyalty must be mutual. You cannot expect loyalty from others if you are not willing to give it yourself. I also believe that money behaves like a visitor: it doesn’t stay unless you manage it wisely and make intentional choices when you have it.
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+If you think it, you can do it!!
 
 ### Evidence from my life
 
-Add your answer here...
+Before I switched careers to DevOps, I had absolutely no prior knowledge. I was starting from zero, but I told myself there’s nothing I can’t learn as long as I try and put in my best. I committed to the process, stayed consistent, and to be honest, I have no regrets. 
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Sucess cannot be attained without tenacity
 
 ### Evidence from my life
 
-Add your answer here...
+When I started my DevOps journey, I would troubleshoot problems for hours. Sometimes I couldn’t solve them immediately, so I stepped away, returned later, and kept trying. I made sure I solved every problem, even if it took days. Through this process, I proved to myself that persistence is the key to progress. Tenacity turned confusion into understanding and challenges into skills.
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+The human brain is an organ built for survival.It always choose comfort unless you push yourself beyond it.
 
 ### Evidence from my life
 
-Add your answer here...
+There were nights during my DevOps journey when I stayed up troubleshooting for hours. I was tired and sleepy because my brain was signaling me to stop and go to bed. But every time I pushed myself past that comfort zone, I achieved results and found solutions. Through those experiences, I discovered that growth only happens when you override the brain’s instinct for comfort and choose discipline instead.
 
 ---
 
@@ -135,13 +135,23 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+By 2031, Toluwalase had become one of Finland’s most quietly influential young engineers, known for his discipline, consistency, and ability to build publicly. Her journey, which began in Helsinki with a modest setup: a single laptop, a few cloud credits, and an unwavering commitment to learning, evolved into a career marked by shipped projects, published technical guides, and community leadership across Europe and Africa.
+
+After earning her foundational certifications — AZ‑900, SC‑900, SC‑300, and later AZ‑104 and CKA, she transitioned into a full‑time DevOps role at a Nordic tech company. There, she built and deployed automated CI/CD pipelines, led cloud migration efforts, and shipped internal tools that reduced deployment time by 47%. Her GitHub portfolio, once a simple collection of practice scripts, grew into a repository of production‑grade infrastructure code, Terraform modules, Kubernetes manifests, and monitoring dashboards used by teams across the company.
+
+In 2028, she published a widely‑read blog series documenting his “Zero‑to‑Engineer” journey. The series became a reference point for early‑career engineers, frequently cited in study groups, bootcamps, and cloud‑learning communities. She later contributed to open‑source projects focused on cloud security and automation, earning recognition from the Finnish Cloud Native Association.
+
+Toluwalase continued to build his career from Helsinki, where he frequently mentored junior engineers. She led weekend workshops, taught practical DevOps fundamentals, and helped students build their first pipelines and cloud projects. Her teaching style-direct, disciplined, and deeply practical became her signature. 
+
+By 2030, she had built a personal brand around consistency and public learning. Her portfolio, GitHub contributions, and published work formed a blueprint for self‑taught engineers across Europe.
+
+Toluwalase’s story became a reminder that discipline, not background, defines an engineer’s future.
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+https://medium.com/@toluismine001/inside-the-making-of-a-modern-devops-engineer-toluwalases-story-0f9c899b4013
 
 ---
 
@@ -165,7 +175,7 @@ This is about self-awareness, not judgment.
 
 ### Answer Format
 
-**Yes / No**
+**Yes**
 
 If Yes:
 
@@ -173,7 +183,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+There have been moments when I took shortcuts, and even though they weren’t harmful or illegal, I still felt uncomfortable afterwards. The main feeling was guilt, like I had gone against my own standards. I also felt a bit of anxiety, worrying whether the shortcut would affect the final outcome. Those feelings taught me that cutting corners never gives real peace of mind.
 
 ---
 
@@ -199,16 +209,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. The Organized Mind - Daniel Levitin
+2. Think Like an Engineer - Guru Madhavan
+3. Read People Like a Book - King Patrick
+4. Think and Grow Rich - Napoleon Hill
+5. The Psychology of Money - Morgan Housel
+6. The Leadership Mindset - Joe Calloway
+7. Clear Thinking - Shane Parrish
+8. The 80/20 Principle - Richard Koch
+9. Discipline Is Destiny - Ryan Holiday
+10. How To Talk To Anyone - Leil Lowndes
 
 ---
 
@@ -237,16 +247,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Daily Steps
+* Daily Spending
+* Mental Well‑Being
+* Productivity
+* Daily Learning hours 
+* Sleep Quality
+* Screen Time (phone usage/TV) 
+* Project Completion Rate
+* Daily Activity Level (Active / Sedentary)
+* Shopping (Frequency / Necessity)
 
 ---
 
@@ -268,11 +278,11 @@ Examples:
 
 ### Did You Do It?
 
-**Yes / No**
+**Yes**
 
 Answer:
 
-Add your answer here...
+Yes, I did it. I wrote down everything currently on my mind into my notebook. My brain dump included my upcoming bills to  help me track my expenses, tasks I need to complete this week to monitor my daily  productivity, personal worries, short‑term and long‑term goals for personal growth and development, new ideas I want to explore, and responsibilities I’m currently managing. Putting everything on paper helped me clear my mind and see what needs attention first.
 
 ---
 
@@ -289,21 +299,26 @@ Example:
 * Sun: Weekly review
 
 #### My Weekly Routine
-
-Add your answer here...
-
+* Monday-Wednesday: 3-4 hours deep-study session
+* Thursday: Practice Days
+* Sat: DMI session
+* Sun: Weekly review (1 hour)
+  * What did I completed?
+  * What slowed me down?
+  * What will I focus on  in the coming week?
+  * Update my progress tracker
+  * Reset my environment for Monday
 ---
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Mondays - Wednesdays
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
-
+3 sessions per week
 ---
 
 ### Distraction Rules
@@ -316,7 +331,18 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+* Phone rules
+  * Keep phone on Do Not Disturb during deep‑work sessions.
+  * Turn off non‑essential notifications (social media, random alerts).
+  * No phone on the work desk.
+
+* Social media rules
+  * Use social media only after completing the daily deep‑study session.
+  * No scrolling during work hours.
+ 
+ * Environment setup
+   * Keep your workspace free from distractions like TV
+   * Work in one dedicated spot every day to build routine.
 
 ---
 
@@ -324,28 +350,27 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized that I operate best when my tasks are clearly defined and scheduled. Once I break things down into small, actionable steps, I stay consistent and avoid overwhelm. This week showed me that structure isn’t just helpful,it’s necessary for me to perform at my best.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I noticed a loop where I delay important tasks because I feel the need to “prepare” first by checking my phone, organizing my desk, or browsing online before starting. This small delay often becomes a distraction cycle that steals time and energy.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
-
+I will implement a Daily Deep Work Block: Daily Learning Block 7:00 PM (60 minutes) Monday to Thursday. One focused session  in the evening dedicated to DevOps practice and hands‑on projects.
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_reflection-week-building-systems-that-strengthen-share-7477849538821668864-HguB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: (https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_reflection-week-building-systems-that-strengthen-share-7477849538821668864-HguB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o)  
+- Blog / Medium : (https://medium.com/@toluismine001/inside-the-making-of-a-modern-devops-engineer-toluwalases-story-0f9c899b4013)
 
 ---
 
