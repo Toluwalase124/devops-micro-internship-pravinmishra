@@ -135,13 +135,13 @@ Include this line:
 
 ## Your Article
 
-By 2031, Toluwalase had become one of Finland’s most quietly influential young engineers, known for his discipline, consistency, and ability to build publicly. Her journey, which began in Helsinki with a modest setup: a single laptop, a few cloud credits, and an unwavering commitment to learning, evolved into a career marked by shipped projects, published technical guides, and community leadership across Europe and Africa.
+By 2031, Toluwalase had become one of Finland’s most quietly influential young engineers, known for her discipline, consistency, and ability to build publicly. Her journey, which began in Helsinki with a modest setup: a single laptop, a few cloud credits, and an unwavering commitment to learning, evolved into a career marked by shipped projects, published technical guides, and community leadership across Europe and Africa.
 
-After earning her foundational certifications — AZ‑900, SC‑900, SC‑300, and later AZ‑104 and CKA, she transitioned into a full‑time DevOps role at a Nordic tech company. There, she built and deployed automated CI/CD pipelines, led cloud migration efforts, and shipped internal tools that reduced deployment time by 47%. Her GitHub portfolio, once a simple collection of practice scripts, grew into a repository of production‑grade infrastructure code, Terraform modules, Kubernetes manifests, and monitoring dashboards used by teams across the company.
+After earning her foundational certifications - AZ‑900, SC‑900, SC‑300, and later AZ‑104 and CKA, she transitioned into a full‑time DevOps role at a Nordic tech company. There, she built and deployed automated CI/CD pipelines, led cloud migration efforts, and shipped internal tools that reduced deployment time by 47%. Her GitHub portfolio, once a simple collection of practice scripts, grew into a repository of production‑grade infrastructure code, Terraform modules, Kubernetes manifests, and monitoring dashboards used by teams across the company.
 
 In 2028, she published a widely‑read blog series documenting his “Zero‑to‑Engineer” journey. The series became a reference point for early‑career engineers, frequently cited in study groups, bootcamps, and cloud‑learning communities. She later contributed to open‑source projects focused on cloud security and automation, earning recognition from the Finnish Cloud Native Association.
 
-Toluwalase continued to build his career from Helsinki, where he frequently mentored junior engineers. She led weekend workshops, taught practical DevOps fundamentals, and helped students build their first pipelines and cloud projects. Her teaching style-direct, disciplined, and deeply practical became her signature. 
+Toluwalase continued to build her career from Helsinki, where she frequently mentored junior engineers. She led weekend workshops, taught practical DevOps fundamentals, and helped students build their first pipelines and cloud projects. Her teaching style-direct, disciplined, and deeply practical became her signature. 
 
 By 2030, she had built a personal brand around consistency and public learning. Her portfolio, GitHub contributions, and published work formed a blueprint for self‑taught engineers across Europe.
 
