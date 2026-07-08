@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — Agents folder structure in VS Code
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-26.png)
 
 ---
 
@@ -34,19 +34,24 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer uses Haiku instead of Sonnet because Haiku is faster, cheaper, and fully capable of handling the simple calculations and comparisons involved in cost‑optimization tasks. Sonnet is a more advanced model designed for deeper reasoning and complex decision‑making, but using it would increase the cost of running the optimizer without providing any real benefit. Cost optimization doesn’t require heavy intelligence; it needs speed and efficiency. Haiku delivers exactly that, making it the practical and economical choice. 
+
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor does not have Write in its tools list because its role is strictly to review, analyze, and report on security issues—not to change or modify anything. Allowing a security auditor to write, update, or alter systems would create a conflict of interest and introduce risk, since an auditor must remain read‑only to ensure integrity, neutrality, and safety. Its job is to observe and evaluate, not to take action, so it is intentionally limited to non‑destructive, non‑modifying capabilities. 
+
+
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf‑writer uses inherit instead of a specific model because it is designed to automatically use whatever model the parent agent or workflow is already using. This keeps the system consistent, avoids mismatched outputs, and prevents unnecessary complexity. If tf‑writer forced a specific model, it could conflict with the main agent’s reasoning or create higher costs. By inheriting the model, tf‑writer stays lightweight, predictable, and aligned with the rest of the agent’s behavior. 
+
+
 
 ---
 
@@ -54,14 +59,14 @@ Add your answer here...
 
 #### Screenshot 2 — security-auditor.md frontmatter
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-27.png)
 
 ---
 
 #### Screenshot 3 — cost-optimizer.md frontmatter
 
 Add your screenshot here.
-
+![Week 02 Screenshot](screenshots/week-02-screenshot-29.png)
 ---
 
 # Task 3 — Run the Security Auditor
@@ -74,13 +79,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — Security auditor delegation triggered
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-30.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-31.png)
 
 ---
 
@@ -94,7 +99,11 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — Cost optimization report output
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-32.png)
+
+![Week 02 Screenshot](screenshots/week-02-screenshot-33.png)
+
+![Week 02 Screenshot](screenshots/week-02-screenshot-34.png)
 
 ---
 
@@ -111,7 +120,7 @@ Add your screenshot here.
 
 Paste your Google Doc URL here:
 
-`__________________________`
+https://docs.google.com/document/d/1NaQxpqpasILhc9JfVv8Nl42C_Mqr2c2J13PGzWU-MJ8/edit?usp=sharing
 
 ---
 
@@ -119,7 +128,7 @@ Paste your Google Doc URL here:
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/Toluwalase124/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ---
 
