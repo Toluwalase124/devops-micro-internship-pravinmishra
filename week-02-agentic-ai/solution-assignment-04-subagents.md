@@ -18,7 +18,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 ### Evidence
 
-#### Screenshot 1 — Agents folder structure in VS Code
+#### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
 ![Week 02 Screenshot](screenshots/week-02-screenshot-26.png)
 
@@ -57,13 +57,13 @@ The tf‑writer uses inherit instead of a specific model because it is designed 
 
 ### Evidence
 
-#### Screenshot 2 — security-auditor.md frontmatter
+#### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
 ![Week 02 Screenshot](screenshots/week-02-screenshot-27.png)
 
 ---
 
-#### Screenshot 3 — cost-optimizer.md frontmatter
+#### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
 Add your screenshot here.
 ![Week 02 Screenshot](screenshots/week-02-screenshot-29.png)
@@ -77,7 +77,7 @@ Trigger the security auditor agent and analyze the generated security report for
 
 ### Evidence
 
-#### Screenshot 4 — Security auditor delegation triggered
+#### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
 ![Week 02 Screenshot](screenshots/week-02-screenshot-30.png)
 
@@ -97,7 +97,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 ### Evidence
 
-#### Screenshot 6 — Cost optimization report output
+#### Screenshot 6 — The full cost optimization report
 
 ![Week 02 Screenshot](screenshots/week-02-screenshot-32.png)
 
@@ -110,7 +110,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 # Submission Instructions
 
 - Ensure all agent files are committed in `.claude/agents/`
-- Complete all written answers in your Google Doc submission
+- Complete all written answers in your GitHub Repo
 - Push final changes to your forked GitHub repository
 - Submit only the Google Doc link as required
 
@@ -137,7 +137,7 @@ https://github.com/Toluwalase124/Ultimate-Agentic-DevOps-with-Claude-Code
 - [ ] `.claude/agents/` folder contains all 3 agent files
 - [ ] Screenshot 2 shows correct `security-auditor.md` configuration
 - [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed in Google Doc
+- [ ] All 3 written answers completed 
 - [ ] Security auditor executed successfully
 - [ ] Cost optimizer executed successfully
 - [ ] Security report is visible with findings
