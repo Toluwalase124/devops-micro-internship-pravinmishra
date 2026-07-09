@@ -20,9 +20,12 @@ Create a team-level `settings.json` file with allow and deny rules for safe comm
 
 #### Screenshot 1 — Screenshot 1 — `settings.json` open in VS Code showing the full permissions configuration
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-46.png)
+
+![Week 02 Screenshot](screenshots/week-02-screenshot-47.png)
 
 ---
+
 
 # Task 2 — Add the UserPromptSubmit Hook
 
@@ -34,7 +37,7 @@ Add a hook that intercepts user prompts before Claude starts execution and block
 
 #### Screenshot 2 — settings.json showing UserPromptSubmit hook
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-43.png)
 
 ---
 
@@ -48,7 +51,9 @@ Extend `settings.json` with a PreToolUse hook that blocks dangerous Bash command
 
 #### Screenshot 3 — full settings.json with permissions and hooks
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-46.png)
+
+![Week 02 Screenshot](screenshots/week-02-screenshot-47.png)
 
 ---
 
@@ -62,7 +67,7 @@ Verify that destructive prompts are blocked before Claude begins execution.
 
 #### Screenshot 4 — blocked prompt due to UserPromptSubmit hook
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-48.png)
 
 ---
 
@@ -76,7 +81,7 @@ Verify that dangerous commands are intercepted before execution by the PreToolUs
 
 #### Screenshot 5 — PreToolUse hook blocking terraform destroy
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-49.png)
 
 ---
 
@@ -92,7 +97,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/Toluwalase124/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ---
 
