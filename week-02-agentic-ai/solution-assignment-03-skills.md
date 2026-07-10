@@ -102,7 +102,7 @@ https://github.com/Toluwalase124/Ultimate-Agentic-DevOps-with-Claude-Code
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-agenticai-claudecode-ugcPost-7481117879019507712-YZSA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
 ---
 
 # Completion Checklist

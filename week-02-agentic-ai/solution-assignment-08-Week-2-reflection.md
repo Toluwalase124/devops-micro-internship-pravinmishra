@@ -46,7 +46,11 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-61.png)
+
+![Week 02 Screenshot](screenshots/week-02-screenshot-62.png)
+
+![Week 02 Screenshot](screenshots/week-02-screenshot-63.png)
 
 ---
 
@@ -54,7 +58,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+https://medium.com/@toluismine001/week-2-reflection-agentic-devops-is-changing-how-i-think-about-engineering-7ade189f148e
 
 ---
 
@@ -92,13 +96,23 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-64.png)
 
 ---
 
 ### Submission Field
 
 LinkedIn Post Content (copy-paste here):
+𝗪𝗲𝗲𝗸 𝟮 - 𝗚𝗿𝗼𝘄𝗶𝗻𝗴 𝗧𝗵𝗿𝗼𝘂𝗴𝗵 𝗔𝗴𝗲𝗻𝘁𝗶𝗰 𝗗𝗲𝘃𝗢𝗽𝘀
+This week changed the way I see engineering. Agentic DevOps pushed me out of my comfort zone and into a new mindset where AI isn’t just a tool; it’s a collaborator.
+
+I learned how Claude Code, Skills, Subagents, MCP, Hooks, Permissions, and Memory all work together to create intelligent, reliable workflows.
+
+One of the highlights was seeing how my AI agent uses Memory to carry project decisions across sessions. I tested it by saving a few rules, closed the session, came back later, and it remembered everything perfectly. That moment made the whole system feel less like a tool and more like a teammate.
+
+I also explored Model Context Protocol (MCP), which stood out because it showed me how AI can securely interact with external tools and development environments. It’s not just generating code; it’s connecting, retrieving, and responding in structured ways that support real DevOps workflows.
+
+This week reinforced a key mindset shift: AI isn’t replacing engineers; it’s extending our capabilities. It handles repetitive tasks, preserves context, and supports decision‑making so we can focus on architecture, design, and problem‑solving.
 
 ```
 Paste your LinkedIn post content here
@@ -108,7 +122,7 @@ Paste your LinkedIn post content here
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-agenticai-claudecode-share-7481300987559981056-9S-z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
 
 ---
 

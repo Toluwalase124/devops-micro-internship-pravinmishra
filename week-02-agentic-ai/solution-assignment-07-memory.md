@@ -14,13 +14,13 @@ In this assignment, you will explore Claude Code’s memory system. You will loc
 
 ## Goal
 
-Identify where Claude Code stores memory for this project.
+Discover exactly where Claude Code stores memory for this project.
 
 ### Evidence
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-53.png)
 
 ---
 
@@ -28,19 +28,21 @@ Add your screenshot here.
 
 ## Goal
 
-Store project-specific rules and configurations into Claude’s memory and verify that they are saved.
+Teach Claude three specific facts about the project and instruct it to save them to the memory file.
 
 ### Evidence
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-54.png)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-55.png)
+
+![Week 02 Screenshot](screenshots/week-02-screenshot-60.png)
 
 ---
 
@@ -54,7 +56,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-56.png)
 
 ---
 
@@ -62,19 +64,19 @@ Add your screenshot here.
 
 ## Goal
 
-Verify that Claude correctly recalls stored memory after a full session reset.
+Run three tests that prove Claude remembers what you told it — without you saying it again in the new session.
 
 ### Evidence
 
 #### Screenshot 5 — Claude recalling hero section colors
 
 Add your screenshot here.
-
+![Week 02 Screenshot](screenshots/week-02-screenshot-57.png)
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+![Week 02 Screenshot](screenshots/week-02-screenshot-58.png)
 
 ---
 
@@ -87,11 +89,19 @@ Add your screenshot here.
 
 ---
 
+## Linkedin Post Link
+
+Paste your Linkedin post link here:
+
+https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-agenticai-claudecode-ugcPost-7481127713735335938-Y9SL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
+
+---
+
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/Toluwalase124/Ultimate-Agentic-DevOps-with-Claude-Code
 
 ---
 
@@ -104,6 +114,7 @@ Paste your forked repository URL here:
 - [ ] Claude recalled hero colors correctly (Screenshot 5)
 - [ ] Claude refused JavaScript request based on memory (Screenshot 6)
 - [ ] All screenshots added and committed to GitHub repo
+- [ ] Linkedin post created.
 
 ---
 
