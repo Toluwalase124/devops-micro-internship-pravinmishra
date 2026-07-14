@@ -36,7 +36,7 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-06.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-04.png)
 
 ---
 
@@ -50,7 +50,7 @@ Clone the project repository and verify the project files are present.
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-07.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-05.png)
 
 ---
 
@@ -64,9 +64,9 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-08.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-06.png)
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-09.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-07.png)
 
 ---
 
@@ -80,11 +80,11 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
+![Week 03 Screenshot](screenshots/week-03-screenshot-08.png)
+
+![Week 03 Screenshot](screenshots/week-03-screenshot-09.png)
+
 ![Week 03 Screenshot](screenshots/week-03-screenshot-10.png)
-
-![Week 03 Screenshot](screenshots/week-03-screenshot-11.png)
-
-![Week 03 Screenshot](screenshots/week-03-screenshot-12.png)
 
 ---
 
@@ -98,9 +98,7 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-13.png)
-
-![Week 03 Screenshot](screenshots/week-03-screenshot-14.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-11.png)
 
 ---
 
@@ -114,13 +112,13 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-17.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-12.png)
 
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-21.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-13.png)
 
 ---
 
@@ -134,13 +132,13 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-19.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-14.png)
 
 ---
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-20.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-15.png)
 
 ---
 
@@ -158,7 +156,7 @@ https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-age
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-![Week 03 Screenshot](screenshots/week-03-screenshot-22.png)
+![Week 03 Screenshot](screenshots/week-03-screenshot-16.png)
 
 ---
 
