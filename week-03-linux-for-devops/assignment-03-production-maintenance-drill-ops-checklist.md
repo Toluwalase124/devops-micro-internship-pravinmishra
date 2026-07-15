@@ -20,25 +20,28 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+
+![Week 03 Screenshot](screenshots/week-03-screenshot-15.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-17.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-18.png)
+
+![Week 03 Screenshot](screenshots/week-03-screenshot-19.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-20.png)
 
 ---
 
@@ -48,19 +51,19 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+The line showing LISTEN ... 0.0.0.0:80 ("nginx",pid=25979) proves Nginx is actively listening for HTTP requests on all IPv4 interfaces.
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
-
+The entries LISTEN ... 0.0.0.0:22 and [::]:22 confirm the SSH service is running and accepting connections on port 22 for both IPv4 and IPv6.
+ 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+None found — all open ports (53, 68, 323, 80, 22) belong to normal system services like DNS, DHCP, NTP, Nginx, and SSH.
 
 ---
 
@@ -74,19 +77,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-21.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-22.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-23.png)
 
 ---
 
@@ -96,13 +99,15 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+If Nginx fails to restart, the production server stops serving traffic. Users will see downtime because the web server is no longer responding to requests.
+
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+If Nginx fails to restart, I just have to switch back to the last working config and restart it again.
+If that still doesn’t fix things, I roll back to my previous deployment or backup so the site comes back online quickly.
 
 ---
 
@@ -116,19 +121,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-24.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-25.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-26.png)
 
 ---
 
@@ -141,19 +146,21 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+No errors. The error log shows only: [notice] using inherited sockets from "5;6;"
+That’s not an error; it’s a normal message meaning Nginx reused existing network sockets during a restart. If the error log is empty or shows no recent errors, it means Nginx hasn’t encountered any recent problems.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+It means the web server is healthy. Nginx is running smoothly, serving requests, and not reporting configuration or runtime issues.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+Yes. The access log shows several successful GET requests (status 200) from the IP.
+That proves traffic is reaching Nginx correctly and responses are being sent back, confirming that your network and server routing are working as expected..
 
 ---
 
@@ -167,25 +174,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-27.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-28.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-29.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-30.png)
 
 ---
 
@@ -195,13 +202,23 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+The disk is the most critical resource. The main partition /dev/nvme0n1p1 is 61% full, while memory and CPU load are very light (only 366 MiB used out of 908 MiB RAM, and load average ≈ 0.1). That means the server isn’t under CPU or memory pressure, but disk usage is climbing and should be monitored.
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+If the disk reaches 100 % usage:
+
+- Nginx and other services can’t write logs or cache files.
+
+- Databases and apps fail to save data.
+
+- The system may freeze or refuse new connections.
+
+- The OS may freeze or reject SSH logins.
+
+In short, a full disk causes downtime and data loss risk. It is important to always keep at least 10–20 % free space for safe operation.
 
 ---
 
@@ -215,19 +232,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-31.png).
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-32.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-33.png)
 
 ---
 
@@ -237,7 +254,32 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+- I checked the files in **/var/www/html** using ls -lah
+I listed the contents of the web root directory to make sure the deployment actually placed files in the correct location.This confirmed that the directory contains the expected production build files.
+
+- I confirmed the React build files are present. 
+Inside /var/www/html, I verified that the typical React production build structure exists:
+  - index.html
+  - asset-manifest.json
+  - favicon.ico
+  - logo192.png, logo512.png
+  - static/ folder 
+
+This proves that the React build was successfully generated and deployed.
+
+- I verified my custom change is deployed by checking the "Deployed by <Toluwalase Koroma>" line in the code
+
+- I ensured Nginx is serving the correct application. I checked the Nginx configuration and confirmed that the web root is correctly set to:
+**root /var/www/html**;
+ This means Nginx is serving the exact files I inspected. I also verified that Nginx is listening on port 80, proving the server is actively serving the application.
+
+
+- I validated that the application loads correctly in the browser.
+Finally, I opened the public IP address in the browser and confirmed that the React application loads without errors.
+This proves that:
+  - The deployment is correct
+  - Nginx is serving the right files
+  - The application is functioning as expected
 
 ---
 
@@ -251,19 +293,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-34.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-35.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-36.png)
 
 ---
 
@@ -273,19 +315,35 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The failure happened because I removed the semicolon **;** from this line **try_files $uri /index.html;**. Without the semicolon, the Nginx configuration became invalid.
+Nginx requires semicolons to mark the end of each directive, so removing it caused the entire config test to fail.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+I fixed the problem by adding the missing semicolon back to the line.Once the semicolon was restored, the configuration became valid again and Nginx restarted successfully
+.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+I avoid issues like missing semicolons by using:
+
+ - Nginx -t before reload
+
+ - CI/CD pipelines
+
+ - Git version control
+
+ - Staging environments
+
+ - No manual edits in production
+
+ - Automated config management tools
+
+These steps make sure bad configs never reach production and prevent downtime.
 
 ---
 
@@ -299,13 +357,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-37.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-38.png)
 
 ---
 
