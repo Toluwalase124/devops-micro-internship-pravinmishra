@@ -372,20 +372,26 @@ Simulate missing deployment content and recover the application safely.
 Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
-
-Write your answer here
+I moved the Nginx web directory **/var/www/html** into the backup folder and created a new empty directory in its place.Because Nginx was still pointing to **/var/www/html**, which no longer contained the application files, the server returned a 500 Internal Server Error when accessed.
+The issue occurred because the web root directory was empty and misconfigured.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
-
-Write your answer here.
+I fixed the issue by deleting the new empty Nginx web directory I had created and restoring the original directory from the backup. 
+Specifically, I removed **/var/www/html**, moved **/var/www/html_backup back** to **/var/www/html**, and then restarted Nginx. After restoring the correct web root and restarting Nginx, I verified the fix with: curl -I http://13.60.85.254. The server returned **HTTP/1.1 200 OK**, confirming that Nginx was now serving the correct application files and the site was functioning properly again.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+Steps for prevention real production systems:
+ - Automation (CI/CD + validation)
+ - Version control (Git)
+ - Staging and backups
+ - Access control and monitoring
+
+These practices make production systems resilient, predictable, and secure, so a simple directory move never takes down the app again.
 
 ---
 
@@ -401,31 +407,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH keys are much harder to crack than passwords because they use long cryptographic key pairs instead of human‑typed secrets. Keys cannot be guessed, reused, or brute‑forced easily. They also prevent password‑sharing, reduce human error, and protect against credential theft.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Every open port is a potential entry point for attackers. Closing all unnecessary ports reduces the attack surface, prevents unauthorized access, and ensures only essential services (like Nginx on port 80/443) are reachable. This improves security and stability.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+If Nginx is enabled on boot, the web application automatically starts whenever the server restarts. This ensures uptime, prevents outages after reboots, and guarantees the application is always available without manual intervention.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Sharing secrets publicly can lead to full system compromise. Attackers can access servers, databases, cloud accounts, and APIs. This can cause data breaches, financial loss, service downtime, and permanent security damage. Secrets must always be kept private.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Unused cloud resources continue to generate costs. Stopping or terminating them prevents unnecessary billing, reduces waste, and keeps your cloud environment clean and secure. It also avoids accidental exposure of forgotten services.
 
 ---
 
