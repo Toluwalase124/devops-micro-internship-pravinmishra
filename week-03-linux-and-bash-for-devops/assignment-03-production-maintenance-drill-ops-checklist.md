@@ -443,13 +443,15 @@ Unused cloud resources continue to generate costs. Stopping or terminating them 
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-sre-sitereliabilityengineering-share-7483298457273876480-QKes/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-49.png)
+
+![Week 03 Screenshot](screenshots/week-03-screenshot-50.png)
 
 ---
 
