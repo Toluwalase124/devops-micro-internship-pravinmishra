@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-52.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-53.png)
 
 ---
 
@@ -36,19 +36,24 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-Add your answer here.
+Bash (Bourne Again Shell) is a command‑line interpreter used on Linux and Unix systems. It allows you to run commands, automate tasks, and write scripts that control the system. It’s one of the most common shells used for scripting and server administration.
 
 ---
 
 **2. What is the difference between shell and Bash?**
 
-Add your answer here.
+A shell is the general term for any command‑line interface that lets you interact with the operating system.Bash is one specific type of shell.
+
+So:
+- Shell = category (many types exist: sh, Bash, Zsh, Fish, etc.)
+- Bash = one implementation of a shell, widely used for scripting and automation
 
 ---
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Add your answer here.
+Different Bash versions support different features and syntax.If a script uses features from a newer version, it may break on systems running an older version.
+Confirming the Bash version ensures the script runs correctly, avoids compatibility issues, and prevents unexpected errors in production.
 
 ---
 
@@ -62,19 +67,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-54.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-55.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-56.png)
 
 ---
 
@@ -84,19 +89,32 @@ Answer the following in your own words:
 
 **1. What is the purpose of `#!/bin/bash`?**
 
-Add your answer here.
-
+**#!/bin/bash** is called a shebang. Its purpose is to tell the system which interpreter should run the script.When the script starts, the shebang ensures it is executed using Bash instead of another shell.
 ---
 
 **2. Why do we use `chmod +x` before running a script?**
 
-Add your answer here.
-
+**chmod +x** makes the script executable. Without this permission, the system won’t allow you to run the file directly.Adding execute permission lets it run like a program.
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
-Add your answer here.
+**./script.sh**
+
+ -Runs the script as an executable file
+
+ - Uses the interpreter defined in the shebang (#!/bin/bash)
+
+ - Requires chmod +x
+
+
+**bash script.sh**
+
+ - Runs the script through the Bash interpreter directly
+
+ - Ignores the shebang
+
+ - Does not require execute permission
 
 ---
 
@@ -110,13 +128,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-57.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+![Week 03 Screenshot](screenshots/week-03-screenshot-58.png)
 
 ---
 
@@ -127,18 +145,18 @@ Answer the following in your own words:
 **1. What is a variable in Bash?**
 
 Add your answer here.
-
----
+A variable in Bash is a placeholder used to store a value such as text, numbers, or command output. Data saved in a variable can be reused later in the script.
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
-Add your answer here.
+Bash does not allow spaces around the **=** sign.
+When spaces are added, Bash will treat the variable name or value as separate commands, which causes an error.
 
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
 
-Add your answer here.
+A variable is accessed by adding a $ before its name.This prints the value stored inside the variable.
 
 ---
 
