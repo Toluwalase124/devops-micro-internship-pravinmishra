@@ -93,7 +93,11 @@ Add your screenshot here.
 
 Paste your Linkedin post link here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-agenticai-claudecode-ugcPost-7481127713735335938-Y9SL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -101,7 +105,11 @@ https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-age
 
 Paste your forked repository URL here:
 
+<<<<<<< HEAD
 https://github.com/Toluwalase124/Ultimate-Agentic-DevOps-with-Claude-Code
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
