@@ -58,11 +58,7 @@ You can publish your blog on:
 
 Blog Link:
 
-<<<<<<< HEAD
 https://medium.com/@toluismine001/week-2-reflection-agentic-devops-is-changing-how-i-think-about-engineering-7ade189f148e
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -126,11 +122,7 @@ Paste your LinkedIn post content here
 
 ### LinkedIn Post Link:
 
-<<<<<<< HEAD
 https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-agenticai-claudecode-share-7481300987559981056-9S-z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

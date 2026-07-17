@@ -449,13 +449,12 @@ Together, these elements create a structured automation flow that processes data
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-(https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-bash-linux-ugcPost-7483649369431527424-RKkU/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o)
+https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-bash-linux-ugcPost-7483649369431527424-RKkU/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
 
 ---
 
 #### Screenshot — Published LinkedIn post
+
 ![Week 03 Screenshot](screenshots/week-03-screenshot-74.png)
 
 ---
