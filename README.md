@@ -130,7 +130,7 @@ Week 02 → Agentic AI with Claude Code
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_reflection-week-building-systems-that-strengthen-share-7477849538821668864-HguB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o | https://medium.com/@toluismine001/inside-the-making-of-a-modern-devops-engineer-toluwalases-story-0f9c899b4013 |- |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_reflection-week-building-systems-that-strengthen-share-7477849538821668864-HguB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o |  https://medium.com/@toluismine001/inside-the-making-of-a-modern-devops-engineer-toluwalases-story-0f9c899b4013|
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-agenticai-claudecode-share-7481300987559981056-9S-z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o | https://medium.com/@toluismine001/week-2-reflection-agentic-devops-is-changing-how-i-think-about-engineering-7ade189f148e | — |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | — | — |

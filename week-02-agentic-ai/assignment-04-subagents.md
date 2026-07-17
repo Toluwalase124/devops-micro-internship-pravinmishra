@@ -65,8 +65,9 @@ The tf‑writer uses inherit instead of a specific model because it is designed 
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
 ![Week 02 Screenshot](screenshots/week-02-screenshot-29.png)
+
+
 ---
 
 # Task 3 — Run the Security Auditor
@@ -128,11 +129,7 @@ https://docs.google.com/document/d/1NaQxpqpasILhc9JfVv8Nl42C_Mqr2c2J13PGzWU-MJ8/
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD
 https://github.com/Toluwalase124/Ultimate-Agentic-DevOps-with-Claude-Code
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

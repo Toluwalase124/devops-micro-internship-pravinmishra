@@ -151,11 +151,7 @@ Toluwalase’s story became a reminder that discipline, not background, defines 
 
 Paste your link here:
 
-<<<<<<< HEAD
 https://medium.com/@toluismine001/inside-the-making-of-a-modern-devops-engineer-toluwalases-story-0f9c899b4013
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -367,11 +363,7 @@ I will implement a Daily Deep Work Block: Daily Learning Block 7:00 PM (60 minut
 
 Paste your LinkedIn post link here:
 
-<<<<<<< HEAD
 https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_reflection-week-building-systems-that-strengthen-share-7477849538821668864-HguB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
