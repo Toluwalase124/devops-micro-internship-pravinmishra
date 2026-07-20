@@ -24,7 +24,7 @@
 
 ## About the Program
 
-**DevOps Micro Internship with Agentic AI** is a 14-week mentor-led cohort program by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) — Cloud, DevOps & AI consultant with 15+ years of experience, 5,000+ learners trained, and 20K+ LinkedIn followers.
+**DevOps Micro Internship with Agentic AI** is a 14-week mentor-led cohort program by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) — Cloud, DevOps & AI consultant with 15+ years of experience, 5,000+ learners trained, and 26K+ LinkedIn followers.
 
 This is not a course. It is an internship-style program — real deployments, real pipelines, real evidence reviewed by mentors every week.
 
@@ -133,8 +133,7 @@ Week 02 → Agentic AI with Claude Code
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_reflection-week-building-systems-that-strengthen-share-7477849538821668864-HguB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o | https://medium.com/@toluismine001/inside-the-making-of-a-modern-devops-engineer-toluwalases-story-0f9c899b4013 |- |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_reflection-week-building-systems-that-strengthen-share-7477849538821668864-HguB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o |  https://medium.com/@toluismine001/inside-the-making-of-a-modern-devops-engineer-toluwalases-story-0f9c899b4013|
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-agenticai-claudecode-share-7481300987559981056-9S-z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o | https://medium.com/@toluismine001/week-2-reflection-agentic-devops-is-changing-how-i-think-about-engineering-7ade189f148e | — |
-| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-devops-cloudcomputing-ugcPost-7484922082716258304-JJS9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
-| — |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-devops-cloudcomputing-ugcPost-7484922082716258304-JJS9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o | https://medium.com/@toluismine001/-dc53d255d623?postPublishedType=initial|
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
