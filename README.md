@@ -79,8 +79,8 @@ Week 02 → Agentic AI with Claude Code
  Week 03 → Linux & Bash for DevOps
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+Week 04 → Git & GitHub
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -134,7 +134,7 @@ Week 02 → Agentic AI with Claude Code
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_reflection-week-building-systems-that-strengthen-share-7477849538821668864-HguB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o |  https://medium.com/@toluismine001/inside-the-making-of-a-modern-devops-engineer-toluwalases-story-0f9c899b4013|
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-agenticai-claudecode-share-7481300987559981056-9S-z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o | https://medium.com/@toluismine001/week-2-reflection-agentic-devops-is-changing-how-i-think-about-engineering-7ade189f148e | — |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-devops-cloudcomputing-ugcPost-7484922082716258304-JJS9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o | https://medium.com/@toluismine001/-dc53d255d623?postPublishedType=initial|
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 04 | Git & GitHub | ✅ Solved | ✅ Solved | https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-devops-agenticai-share-7486185076452392960-2BD3/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o |https://medium.com/@toluismine001/a-practical-guide-to-pr-ready-automation-using-git-and-ai-b48d1e902c5f?postPublishedType=initial |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
