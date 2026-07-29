@@ -146,7 +146,6 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-Add your answer here.
 A variable in Bash is a placeholder used to store a value such as text, numbers, or command output. Data saved in a variable can be reused later in the script.
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
