@@ -25,8 +25,9 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/task-01-screenshot-01.png)
 
+![Task 1 Screenshot](screenshots/task-01-screenshot-02.png)
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
@@ -34,7 +35,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that networking protocols are the rules that allow devices to communicate and exchange data reliably over a network. I also understood that different protocols, such as HTTP, HTTPS, SSH, and TCP, have specific purposes to ensure secure, efficient, and accurate communication between devices.
 
 ---
 
@@ -59,7 +60,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user anywhere in the world visits the EpicReads website, their browser sends a request using HTTP or HTTPS (the secure version that encrypts data). The request travels across the internet using the TCP/IP protocol suite. TCP ensures the data is delivered accurately and in the correct order, while IP uses the website's unique IP address to route the request to the server hosted in Finland. The data is divided into smaller pieces called packets, a process known as packet switching. These packets may travel along different routes but are reassembled correctly when they reach the server. The server then sends the requested web pages back to the user's browser, allowing people from anywhere in the world to access EpicReads quickly and securely.
 
 ---
 
@@ -91,8 +92,9 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Task 1 Screenshot](screenshots/task-01-screenshot-03.png)
 
+![Task 1 Screenshot](screenshots/task-01-screenshot-04.png)
 
 Replace `task-3-diagram.png` with your actual diagram file name.
 
@@ -102,18 +104,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React
+* Angular
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* MongoDB
 
 ---
 
@@ -142,7 +144,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+The Domain Name System is the system that translates human-friendly domain names into IP addresses that computers use to find servers on the Internet. Instead of remembering an IP like 52.172.142.222, users can simply type epicreads.com in their browser. DNS then looks up the correct IP and directs the request to the server hosting the website.
+To connect the domain epicreads.com to the server, the correct record type is an A Record. An A record maps a domain name directly to an IPv4 address, allowing visitors who enter epicreads.com to reach the server at 52.172.142.222.
+
 
 ---
 
@@ -178,7 +182,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![Task 1 Screenshot](screenshots/task-01-screenshot-05.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -217,8 +221,8 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
+https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_pravin-mishra-the-cloudadvisory-linkedin-activity-7438948185684975616-HMgH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
+
 ```
 
 ---
@@ -227,7 +231,44 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+This week has been incredibly exciting! As a part of the DevOps Micro Internship Cohort, I’ve been exploring the fundamentals of DevOps, and I’m gaining so much hands-on knowledge. Here’s a quick snapshot of what stood out to me.
+
+🤖 𝗖𝗵𝗮𝘁𝗚𝗣𝗧
+I used ChatGPT to research and clarify technical concepts. It helped me understand networking, DNS, and system architecture better and allowed me to practice explaining these topics in simple, clear terms. 
+AI has been a major game-changer in DevOps; all it takes is a clear, detailed prompt, and you can see the results instantly. It’s like having a personal guide through complex concepts.
+
+🌐 𝐈𝐧𝐭𝐞𝐫𝐧𝐞𝐭 & 𝐍𝐞𝐭𝐰𝐨𝐫𝐤𝐢𝐧𝐠
+I learned how people from anywhere in the world can access a website.
+Key takeaways:
+✔Data is broken into small packets using Packet Switching for efficient delivery.
+✔Every device has a unique IP Address, which allows communication.
+✔Data travels according to TCP/IP rules.
+✔Websites are delivered via HTTP or secure HTTPS.
+
+🧱 𝐀𝐩𝐩 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞
+I studied two-tier and three-tier web application architectures:
+✔𝐓𝐰𝐨-𝐓𝐢𝐞𝐫 (𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝 + 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞):
+Technologies: HTML, CSS, JavaScript, MySQL, PostgreSQL
+✔𝐓𝐡𝐫𝐞𝐞-𝐓𝐢𝐞𝐫 (𝐅𝐫𝐨𝐧𝐭𝐞𝐧𝐝 + 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 + 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞):
+Technologies: React, Angular, Node.js, Django, MySQL, MongoDB
+
+🌍 𝐃𝐍𝐒
+I learned about the 𝐃𝐨𝐦𝐚𝐢𝐧 𝐍𝐚𝐦𝐞 𝐒𝐲𝐬𝐭𝐞𝐦, which translates easy-to-remember domain names into IP addresses.
+✔To connect a domain like https://www.epicreads.com/ to a server IP 52.172.142.222, an A Record is used.
+✔This allows users to type a domain instead of remembering numeric IP addresses.
+
+💻 𝐕𝐒 𝐂𝐨𝐝𝐞 𝐒𝐞𝐭𝐮𝐩
+With Visual Studio Code already installed, I jumped straight into its integrated terminal, running basic commands like pwd and dir. I also explored different VS Code themes, because a cool theme makes coding way more enjoyable 😄. Getting hands-on with the terminal has boosted my confidence in working within a real development environment.
+
+This experience helped me connect theoretical concepts to practical applications. From understanding how the internet works to setting up development tools, I now feel more confident building and managing modern web applications.
+
+What networking or DevOps concept confused you the most when you first started learning?
+
+P.S. This post is part of the FREE DevOps Micro Internship (DMI) Cohort 3 led by Pravin Mishra. You can be a part of this learning community too.
+
+🔗 Join the community: https://lnkd.in/dAPGPrXg
+📝 DMI Cohort 3 Registration: https://lnkd.in/dV2zSGBJ
+👤 Pravin Mishra LinkedIn: https://lnkd.in/deFnFymx
 
 ---
 
@@ -235,14 +276,13 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found them all easy because I am familiar with the terms.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
-
+Nothing was difficult
 ---
 
 ### What will you improve next week?
