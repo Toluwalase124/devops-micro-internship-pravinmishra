@@ -287,7 +287,7 @@ Nothing was difficult
 
 ### What will you improve next week?
 
-Add your answer here...
+I will expand my knowledge in networking
 
 ---
 
