@@ -20,13 +20,15 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 
 #### Screenshot 1 — Sprint 1 created with the Story inside it
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-20.png)
+
+![Week 05 Screenshot](screenshots/week-05-screenshot-21.png)
 
 ---
 
 #### Screenshot 2 — Active Sprint board showing the Sprint Goal
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-22.png)
 
 ---
 
@@ -40,25 +42,25 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 3 — Jira board showing the Day 1 Sub-task in Done
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-24.png)
 
 ---
 
 #### Screenshot 4 — Successful Git commit output
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-25.png)
 
 ---
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-23.png)
 
 ---
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-26.png)
 
 ---
 
@@ -72,25 +74,24 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 7 — Code editor showing the footer and date logic or deployment-time template snippet
 
-Add your screenshot here.
-
+![Week 05 Screenshot](screenshots/week-05-screenshot-27.png)
 ---
 
 #### Screenshot 8 — EC2 browser view showing the updated footer with the current date
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-28.png)
 
 ---
 
 #### Screenshot 9 — README snippet documenting the footer and date behavior
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-29.png)
 
 ---
 
 #### Screenshot 10 — Jira Story comment showing the Day 2 Daily Scrum update
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-30.png)
 
 ---
 
@@ -104,19 +105,19 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-31.png)
 
 ---
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-32.png)
 
 ---
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-33.png)
 
 ---
 
@@ -130,7 +131,7 @@ Replace the existing homepage tagline with the required DMI Website call-to-acti
 
 #### Screenshot 14 — EC2 browser view showing "Start your DevOps Journey here" and the clickable "Visit the DMI Website" link
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-34.png)
 
 ---
 
@@ -144,19 +145,19 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-37.png)
 
 ---
 
 #### Screenshot 16 — Jira retrospective comment
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-36.png)
 
 ---
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-35.png)
 
 ---
 
@@ -164,7 +165,7 @@ Add your screenshot here.
 
 Paste your unlisted YouTube or accessible Google Drive demo-video link here:
 
-`Add your URL here`
+https://drive.google.com/file/d/1fpcijDYvKmQlousdZjt0effTeW1hLOlT/view?usp=drive_link
 
 ---
 
@@ -180,13 +181,13 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-devops-awsec2-ugcPost-7490959316255051776-gS3a/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
 
 ---
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-39.png)
 
 ---
 
