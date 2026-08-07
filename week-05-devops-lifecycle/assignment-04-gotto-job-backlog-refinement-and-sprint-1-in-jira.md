@@ -20,7 +20,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-40.png)
 
 ---
 
@@ -28,7 +28,13 @@ Add your screenshot here.
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
+**Product Owner (PO)**: Decides what delivers the most value and ranks the backlog accordingly.
+
+**Scrum Master (SM)**: Ensures the Scrum process is followed through timeboxing and ceremonies.
+
+**Dev Lead**: Builds the selected Story and delivers the actual implementation.
+
+**DevOps Lead**: Ships the work by committing, deploying, and verifying the change in production
 
 ---
 
@@ -42,7 +48,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-40.png)
 
 ---
 
@@ -56,7 +62,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-41.png)
 
 ---
 
@@ -70,13 +76,13 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-42.png)
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-43.png)
 
 ---
 
@@ -90,7 +96,7 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-45.png)
 
 ---
 
@@ -98,8 +104,29 @@ Add your screenshot here.
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+S1 – Hero Tagline (1 point)
+This is a very small change because it only updates one heading. There was no real debate — the task is straightforward and clearly fits a 1‑point size.
 
+S2 – Button Colour (1 point)
+Although multiple buttons are affected, the change is still a simple CSS update. I briefly considered 2 points, but the work remains small enough to stay at 1.
+
+S3 – Job Card Typography (2 points)
+This requires adjusting font size and weight and then checking responsiveness across screen sizes. The extra verification adds complexity, making it a solid 2‑point Story.
+
+S4 – Remote Badge (2 points)
+Adding a new badge and showing it only for remote jobs introduces conditional logic. It’s more involved than a simple text change, so it fits a 2‑point estimate.
+
+S5 – Posted On Date (1 point)
+This is a simple text addition with no logic or layout impact. Since nothing else is affected, it clearly remains a 1‑point Story.
+
+S6 – Search Labels (2 points)
+Multiple labels and placeholders need updating and testing, which requires more effort than a single text change. I debated whether it could be a 1, but the number of elements makes it a 2.
+
+S7 – Job Detail “Apply Now” Button (1 point)
+This adds a single button with a basic link and no extra logic. It’s a small, isolated change, so it stays at 1 point.
+
+S8 – Footer Trust Links (1 point)
+Adding two simple footer links is a quick HTML update with no complexity. Even with a brief debate, the work is clearly small enough to remain a 1‑point Story.
 ---
 
 # Task 6 — Sprint Planning: Create Sprint 1 + Sprint Goal + Scope
@@ -112,13 +139,13 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-46.png)
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-47.png)
 
 ---
 
@@ -132,7 +159,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-48.png)
 
 ---
 
@@ -146,19 +173,19 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-51.png)
 
 ---
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-49.png)
 
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-50.png)
 
 ---
 
@@ -172,7 +199,11 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-52.png)
+
+![Week 05 Screenshot](screenshots/week-05-screenshot-53.png)
+
+![Week 05 Screenshot](screenshots/week-05-screenshot-54.png)
 
 ---
 
@@ -188,13 +219,13 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-scrum-agile-ugcPost-7491328568631922689-C96B/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFudL58B_KdACca6x5LqOifva91Ab5ggM3o
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+![Week 05 Screenshot](screenshots/week-05-screenshot-54.png)
 
 ---
 
