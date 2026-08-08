@@ -225,7 +225,7 @@ https://www.linkedin.com/posts/toluwalase-koroma-9678b736a_dmibypravinmishra-scr
 
 #### Screenshot 14 — Published LinkedIn post
 
-![Week 05 Screenshot](screenshots/week-05-screenshot-54.png)
+![Week 05 Screenshot](screenshots/week-05-screenshot-55.png)
 
 ---
 
