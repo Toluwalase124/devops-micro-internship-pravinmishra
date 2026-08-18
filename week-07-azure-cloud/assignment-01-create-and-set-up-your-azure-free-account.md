@@ -30,13 +30,13 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![Week 07 Screenshot](screenshots/week-07-screenshot-01.png)
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![Week 07 Screenshot](screenshots/week-07-screenshot-02.png)
 
 ---
 
@@ -44,7 +44,8 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to explore Azure Virtual Machines, Azure Networking, and Azure Load Balancers first because they form the core of deploying and managing applications in the cloud. Virtual Machines help me understand compute resources, while Networking shows how services communicate securely across environments. The Load Balancer is essential for distributing traffic and improving reliability, making it a key component in modern cloud architectures.
+
 
 ---
 
