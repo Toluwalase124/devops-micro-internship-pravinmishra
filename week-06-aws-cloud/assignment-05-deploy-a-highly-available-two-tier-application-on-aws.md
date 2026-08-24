@@ -20,31 +20,35 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-45.png)
 
 ---
 
 #### Screenshot 2 — Subnets list showing four subnets and their Availability Zones
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-46.png)
 
 ---
 
 #### Screenshot 3 — Public route table showing the Internet Gateway route and both public-subnet associations
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-47.png)
+
+![Week 06 Screenshot](screenshots/week-06-screenshot-48.png)
 
 ---
 
 #### Screenshot 4 — Private route table showing the NAT Gateway route and both private-subnet associations
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-49.png)
+
+![Week 06 Screenshot](screenshots/week-06-screenshot-50.png)
 
 ---
 
 #### Screenshot 5 — NAT Gateway status showing Available and the Elastic IP
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-51.png)
 
 ---
 
@@ -58,19 +62,18 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 #### Screenshot 6 — ALB Security Group inbound rules
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-52.png)
 
 ---
 
 #### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
 
-Add your screenshot here.
-
+![Week 06 Screenshot](screenshots/week-06-screenshot-53.png)
 ---
 
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-54.png)
 
 ---
 
@@ -84,13 +87,15 @@ Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private 
 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-55.png)
 
 ---
 
 #### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-55.png)
+
+![Week 06 Screenshot](screenshots/week-06-screenshot-56.png)
 
 ---
 
@@ -104,13 +109,13 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 11 — Launch Template details showing that user data exists, including a visible snippet
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-57.png)
 
 ---
 
 #### Screenshot 12 — A running instance created from the template showing the application responds on port 80
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-58.png)
 
 ---
 
@@ -124,13 +129,13 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-64.png)
 
 ---
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-73.png)
 
 ---
 
@@ -144,13 +149,15 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-66.png)
+
+![Week 06 Screenshot](screenshots/week-06-screenshot-67.png)
 
 ---
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-68.png)
 
 ---
 
@@ -164,13 +171,13 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-69.png)
 
 ---
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-70.png)
 
 ---
 
@@ -184,25 +191,25 @@ Test A: terminate one web instance and confirm the Auto Scaling Group replaces i
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-72.png)
 
 ---
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-73.png)
 
 ---
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-75.png)
 
 ---
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-77.png)
 
 ---
 
@@ -216,7 +223,7 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram (hand-drawn is fine), or an AWS console overview showing the components
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-78.png)
 
 ---
 
@@ -224,7 +231,27 @@ Add your screenshot here.
 
 Write a short summary covering the network, ALB/ASG setup, RDS setup, and the results of Test A and Test B.
 
-Write your answer here.
+Network
+
+A VPC was configured across two Availability Zones, each containing a public subnet with a NAT Gateway, a private web subnet for EC2 instances, and a private data subnet for the database. An Internet Gateway handles all inbound user traffic, while NAT Gateways allow private instances to make outbound connections without internet exposure.
+
+ALB & Auto Scaling Group
+
+A single Application Load Balancer spans both public subnets, serving as the entry point for all traffic. A Launch Template was configured with User Data to automatically install, deploy, and start the application on every new instance. The Auto Scaling Group was deployed across both private web subnets with a minimum of 2, desired 2, and maximum of 4 instances, registered directly to the ALB target group.
+
+RDS Database
+
+RDS MySQL was deployed with Multi-AZ enabled — a Master in AZ-a and a standby Replica in AZ-b — in fully private subnets with no public access. Both READ and WRITE operations were confirmed successfully through the ALB DNS name.
+
+Test A — Instance Failure
+
+One EC2 instance was manually terminated. The ASG automatically detected the failure, launched a replacement, and registered it to the ALB with zero downtime.
+
+Test B — AZ Failure
+
+An Availability Zone failure was simulated by taking instances offline in one zone. The ALB instantly rerouted all traffic to the healthy AZ and the application remained fully available throughout.
+
+
 
 ---
 
@@ -240,13 +267,13 @@ Publish a LinkedIn post about the high-availability build, including the ALB URL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/feed/update/urn:li:ugcPost:7497602208763633664/
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Week 06 Screenshot](screenshots/week-06-screenshot-79.png)
 
 ---
 
