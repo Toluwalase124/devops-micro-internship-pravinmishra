@@ -20,13 +20,25 @@ Create a `terraform-azure-vm` project and define the resource group, virtual net
 
 #### Screenshot 1 — VS Code showing `main.tf` and the required Azure resources
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-01.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-02.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-03.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-04.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-05.png)
 
 ---
 
 #### Screenshot 2 — `main.tf` showing the public IP output and VM authentication configuration, with the password hidden or redacted
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-06.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-07.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-09.png)
 
 ---
 
@@ -40,7 +52,7 @@ Run `terraform init` and confirm the working directory initializes successfully.
 
 #### Screenshot 3 — Terminal showing successful `terraform init` output
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-08.png)
 
 ---
 
@@ -54,19 +66,23 @@ Review `terraform plan`, run `terraform apply`, and record the VM's public IP fr
 
 #### Screenshot 4 — Terraform plan summary showing the proposed resources
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-10.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-11.png)
 
 ---
 
 #### Screenshot 5 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-12.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-13.png)
 
 ---
 
 #### Screenshot 6 — Terraform output showing the public IP of the VM
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-14.png)
 
 ---
 
@@ -80,7 +96,11 @@ Use Azure CLI to confirm the VM was created and is running.
 
 #### Screenshot 7 — Azure CLI output showing the VM name and running status
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-15.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-16.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-17.png)
 
 ---
 
@@ -94,7 +114,9 @@ Run `terraform destroy` to clean up the Azure resources after testing.
 
 #### Screenshot 8 — Terminal showing successful `terraform destroy` completion
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-18.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-19.png)
 
 ---
 
@@ -102,7 +124,11 @@ Add your screenshot here.
 
 Write a short paragraph explaining what you learned or any issues you encountered.
 
-Write your answer here.
+I learned that running **terraform validate** is a reliable way to detect syntax errors in a Terraform configuration. I encountered an issue with my virtual machine SSH configuration because I had not yet created a public key. After generating the key on my local system, I added the correct file path to my main.tf, and the configuration became valid.
+
+I also learned that when building an Azure virtual machine using Terraform, the resource creation sequence typically follows this structure:
+
+**Terraform configuration → Provider → Resource Group → Virtual Network → Subnet → Public IP → Network Interface → Virtual Machine**
 
 ---
 
