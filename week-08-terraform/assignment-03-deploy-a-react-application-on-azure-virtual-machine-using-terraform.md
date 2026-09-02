@@ -20,7 +20,7 @@ Create a `terraform-react-azure` project directory for the Azure Terraform confi
 
 #### Screenshot 1 — File Explorer, VS Code, or terminal showing the `terraform-react-azure` project directory
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-32.png)
 
 ---
 
@@ -34,7 +34,11 @@ Define the resource group, virtual network/subnet, Network Security Group (SSH 2
 
 #### Screenshot 2 — VS Code showing `main.tf` with the required Azure resources, with any password or sensitive values hidden
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-33.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-34.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-35.png)
 
 ---
 
@@ -48,7 +52,7 @@ Run `terraform init` and confirm the working directory initializes successfully.
 
 #### Screenshot 3 — Terminal showing successful `terraform init` output
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-36.png)
 
 ---
 
@@ -62,13 +66,17 @@ Review `terraform plan`, run `terraform apply`, and record the VM's public IP.
 
 #### Screenshot 4 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-37.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-38.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-39.png)
 
 ---
 
 #### Screenshot 5 — Azure portal showing the Virtual Machine running and its public IP
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-40.png)
 
 ---
 
@@ -82,7 +90,17 @@ Establish an SSH session with the Ubuntu VM through its public IP.
 
 #### Screenshot 6 — Terminal showing a successful SSH connection to the Azure VM
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-41.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-42.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-43.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-44.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-45.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-51.png)
 
 ---
 
@@ -96,8 +114,7 @@ Update Ubuntu and install Node.js, npm, and Git.
 
 #### Screenshot 7 — Terminal showing successful installation and the `node -v` and `npm -v` output
 
-Add your screenshot here.
-
+![Week 08 Screenshot](screenshots/week-08-screenshot-50.png)
 ---
 
 # Task 7 — Clone, Build, and Serve the React App with Nginx
@@ -110,13 +127,13 @@ Follow the `my-react-app` repository README to clone, install, and build the app
 
 #### Screenshot 8 — Terminal showing the successful React build
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-46.png)
 
 ---
 
 #### Screenshot 9 — Terminal showing that Nginx is active and running
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-47.png).
 
 ---
 
@@ -130,7 +147,7 @@ Confirm the React application loads through the VM's public IP and navigation wo
 
 #### Screenshot 10 — Browser showing the React application with the Azure VM public IP visible in the address bar
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-49.png)
 
 ---
 
@@ -138,7 +155,11 @@ Add your screenshot here.
 
 Write a short summary of what you built and any issues you encountered and how you resolved them.
 
-Write your answer here.
+The major issue I had was initially I couldn’t SSH into my Azure VM, so I used Azure Bastion to access the machine after running terraform apply to recreate the VM and automatically execute the setup-react.sh script. Once inside the VM, I confirmed that Nginx and all required configuration files were present.
+
+However, when I tried to view my deployed app using the VM’s public IP, the browser still returned a “site cannot be reached” error. I checked the Network Security Group (NSG) and everything looked correct, but then I noticed that the VM’s network interface (NIC) did not have an NSG attached.
+
+After attaching the NSG directly to the NIC, inbound traffic on ports 22 and 80 was finally allowed and I was able to view my app successfully in the browser.
 
 ---
 
