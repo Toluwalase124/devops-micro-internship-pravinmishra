@@ -20,13 +20,17 @@ Define a VPC (10.0.0.0/16) with a public subnet (10.0.1.0/24) and private subnet
 
 #### Screenshot 1 — Terraform configuration showing the VPC and both subnet CIDR ranges
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-54.png)
 
 ---
 
 #### Screenshot 2 — Terraform configuration showing the Internet Gateway, public route table, and both Security Groups
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-55.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-56.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-57.png)
 
 ---
 
@@ -40,19 +44,19 @@ Use Terraform to launch a t2.micro Ubuntu 22.04 EC2 instance in the public subne
 
 #### Screenshot 3 — Terraform apply output showing successful EC2 provisioning
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-60.png)
 
 ---
 
 #### Screenshot 4 — EC2 instance running in the AWS Console with the public IP and subnet visible
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-63.png)
 
 ---
 
 #### Screenshot 5 — Terminal showing successful SSH access and installed software
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-64.png)
 
 ---
 
@@ -66,13 +70,17 @@ Deploy the EpicBook frontend and backend on the EC2 instance and configure Nginx
 
 #### Screenshot 6 — Terminal showing the EpicBook application files and dependency installation
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-65.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-72.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-73.png)
 
 ---
 
 #### Screenshot 7 — Terminal showing the application and Nginx services running
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-76.png)
 
 ---
 
@@ -86,19 +94,25 @@ Provision a private Amazon RDS MySQL instance (db.t3.micro, Publicly accessible:
 
 #### Screenshot 8 — Terraform apply output showing successful RDS provisioning
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-61.png)
 
 ---
 
 #### Screenshot 9 — RDS instance in the AWS Console showing the private network configuration and Publicly accessible: No
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-66.png)
 
 ---
 
 #### Screenshot 10 — Terminal showing successful database initialization or table verification from EC2
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-67.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-68.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-69.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-70.png)
 
 ---
 
@@ -112,13 +126,17 @@ Confirm EpicBook is accessible through the EC2 public IP and that navigation, ca
 
 #### Screenshot 11 — Browser showing the EpicBook application through the EC2 public IP
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-84.png)
 
 ---
 
 #### Screenshot 12 — Browser showing a working product, cart, order summary, or checkout flow
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-85.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-86.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-87.png)
 
 ---
 
@@ -126,7 +144,15 @@ Add your screenshot here.
 
 Write a short note describing any issue you faced, how you fixed it, and what you learned.
 
-Write your answer here.
+When i ran **npm run start** , i got an error **ECONNREFUSED 127.0.0.1:3306** which meant that Sequelize was trying to connect to MySQL on the VM locally(127.0.0.1:3306) but database  lives on AWS RDS, not locally so the connection was being refused.
+
+I fixed this by updating the **config/config.json** file in the backend folder to point to the RDS endpoint instead of localhost. After updating the **DB_HOST** variable to the RDS endpoint and restarting the backend, the application connected successfully to MySQL on RDS.
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-77.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-78.png)
+
+![Week 08 Screenshot](screenshots/week-08-screenshot-79.png)
 
 ---
 
@@ -142,13 +168,13 @@ Publish a LinkedIn post about what you achieved in this assignment, with public 
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/ddcN4dc2
 
 ---
 
 #### Screenshot 13 — Published LinkedIn post showing the text and at least one image or proof
 
-Add your screenshot here.
+![Week 08 Screenshot](screenshots/week-08-screenshot-89.png)
 
 ---
 
